@@ -1,0 +1,14 @@
+import arquivo
+
+file = open('arquivo.py')
+
+cont=0
+z=""
+for line in file:
+    z=z+line
+    cont = cont+1
+
+
+print(z)
+print(len(z))
+print(cont)
